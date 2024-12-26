@@ -35,7 +35,7 @@ footer {
     background-color: var(--button-background);
     color: var(--button-text);
     font-size: 14px;
-    gap: 10px;
+    gap: 10px; /* Adds space between the logo and the text */
 }
 
 .footer-logo img {
