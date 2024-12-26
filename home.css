@@ -26,3 +26,13 @@ header {
 .logo img {
     height: 50px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--button-background);
+    color: var(--button-text);
+    font-size: 14px;
+}
