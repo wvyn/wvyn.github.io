@@ -1,7 +1,7 @@
 :root {
     --background-color: rgb(245, 245, 245);
-    --text-color: rgb(30, 30, 30);
-    --button-background: rgb(30, 30, 30);
+    --text-color: rgb(20, 20, 20);
+    --button-background: rgb(20, 20, 20);
     --button-text: white;
 }
 
@@ -35,4 +35,9 @@ footer {
     background-color: var(--button-background);
     color: var(--button-text);
     font-size: 14px;
+    gap: 10px;
+}
+
+.footer-logo img {
+    height: 30px; 
 }
