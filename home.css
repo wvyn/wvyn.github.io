@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Noyh SemiLight';
+    src: url('noyh-slim-semi-light.woff2') format('woff2'),
+         url('noyh-slim-semi-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --background-color: rgb(245, 245, 245);
     --text-color: rgb(20, 20, 20);
@@ -36,7 +44,7 @@ footer {
     color: var(--button-text);
     font-size: 14px;
     gap: 10px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Noyh SemiLight', sans-serif;
 }
 
 .footer-logo img {
