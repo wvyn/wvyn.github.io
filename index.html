@@ -8,76 +8,121 @@
     <link rel="icon" type="image/x-icon" href="Whitosauce.png">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <img src="Whitosauce.png" alt="Whitosauce Logo" class="logo">
-            <h1>Whitosauce</h1>
-            <p>Your journey to creamy perfection starts here.</p>
-            <button class="scroll-button" onclick="scrollToSection('#about')">Discover More</button>
+    <header>
+        <div class="logo">
+            <img src="Whitosauce.png" alt="Whitosauce Logo">
         </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="darkModeToggle" class="toggle-button">🌙 Dark Mode</button>
     </header>
+    <main>
+        <section id="about">
+            <h1>Welcome to Whitosauce</h1>
+            <p class="fade-in">Whitosauce brings creamy perfection to your table. Crafted with care and love, our sauce elevates every dish it touches.</p>
+            <p>Our signature sauce is made from the finest ingredients to ensure premium quality and taste. Whether you’re cooking pasta, pizza, or creating a gourmet dip, Whitosauce is your secret ingredient to culinary excellence.</p>
+        </section>
+        
+        <section id="gallery">
+            <h2>Our Creations</h2>
+            <div class="image-gallery">
+                <div class="image-card slide-in-left">
+                    <img src="image1.jpg" alt="White Sauce Dish 1">
+                    <p>Delicious pasta with creamy white sauce.</p>
+                </div>
+                <div class="image-card slide-in-up">
+                    <img src="image2.jpg" alt="White Sauce Dish 2">
+                    <p>Rich and savory pizza topping.</p>
+                </div>
+                <div class="image-card slide-in-right">
+                    <img src="image3.jpg" alt="White Sauce Dish 3">
+                    <p>Perfect for vegetable dips and more.</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="content">
-            <h2>What Makes Us Special</h2>
-            <p>At Whitosauce, we combine the finest ingredients with innovative recipes to create a sauce that elevates every meal.</p>
-        </div>
-        <div class="parallax-image" style="background-image: url('about-background.jpg');"></div>
-    </section>
+        <section id="recipes">
+            <h2>Delicious Recipes</h2>
+            <div class="recipes">
+                <article>
+                    <h3>Classic White Sauce Pasta</h3>
+                    <p>A step-by-step guide to creating a creamy and rich pasta dish with Whitosauce.</p>
+                    <a href="#">Read More &raquo;</a>
+                </article>
+                <article>
+                    <h3>Whitosauce Pizza</h3>
+                    <p>Discover how to make a pizza that stands out with our signature white sauce as the base.</p>
+                    <a href="#">Read More &raquo;</a>
+                </article>
+                <article>
+                    <h3>Vegetable Dip</h3>
+                    <p>Create a quick and easy dip for your parties with Whitosauce and fresh veggies.</p>
+                    <a href="#">Read More &raquo;</a>
+                </article>
+            </div>
+        </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="feature-card">
-            <img src="feature1.jpg" alt="Feature 1">
-            <h3>Versatile</h3>
-            <p>Use it in pasta, pizza, dips, and more.</p>
-        </div>
-        <div class="feature-card">
-            <img src="feature2.jpg" alt="Feature 2">
-            <h3>Rich Flavor</h3>
-            <p>Crafted with a perfect balance of creamy and savory.</p>
-        </div>
-        <div class="feature-card">
-            <img src="feature3.jpg" alt="Feature 3">
-            <h3>All-Natural</h3>
-            <p>Made with only the finest natural ingredients.</p>
-        </div>
-    </section>
+        <section id="reviews">
+            <h2>What Our Customers Say</h2>
+            <div class="reviews">
+                <blockquote>
+                    <p>“Whitosauce has transformed my cooking. Every dish tastes gourmet now!”</p>
+                    <cite>&mdash; Emily R.</cite>
+                </blockquote>
+                <blockquote>
+                    <p>“I can’t imagine my pasta without Whitosauce. It’s simply perfect.”</p>
+                    <cite>&mdash; Liam T.</cite>
+                </blockquote>
+                <blockquote>
+                    <p>“A must-have in every kitchen. The taste is incredible and versatile.”</p>
+                    <cite>&mdash; Sophia K.</cite>
+                </blockquote>
+            </div>
+        </section>
 
-    <!-- Parallax Section -->
-    <section class="parallax">
-        <div class="parallax-content">
-            <h2>Discover the Magic</h2>
-            <p>Let Whitosauce transform your culinary creations.</p>
-        </div>
-    </section>
+        <section id="blog">
+            <h2>From Our Blog</h2>
+            <div class="blog-posts">
+                <article>
+                    <h3>The History of White Sauce</h3>
+                    <p>Discover the rich history behind the classic white sauce and its origins.</p>
+                    <a href="#">Read More &raquo;</a>
+                </article>
+                <article>
+                    <h3>5 Tips for Using Whitosauce</h3>
+                    <p>Maximize the flavor of your dishes with these expert tips.</p>
+                    <a href="#">Read More &raquo;</a>
+                </article>
+                <article>
+                    <h3>Pairing Whitosauce with Wine</h3>
+                    <p>Learn the best wine pairings for dishes made with Whitosauce.</p>
+                    <a href="#">Read More &raquo;</a>
+                </article>
+            </div>
+        </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery">
-        <h2>Our Creations</h2>
-        <div class="image-gallery">
-            <img src="gallery1.jpg" alt="Gallery Image 1">
-            <img src="gallery2.jpg" alt="Gallery Image 2">
-            <img src="gallery3.jpg" alt="Gallery Image 3">
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or want to learn more? Get in touch with us!</p>
-        <ul>
-            <li><a href="mailto:info@whitosauce.com">📧 Email Us</a></li>
-            <li><a href="https://facebook.com/whitosauce" target="_blank">🌐 Facebook</a></li>
-            <li><a href="https://instagram.com/whitosauce" target="_blank">📸 Instagram</a></li>
-        </ul>
-    </section>
-
-    <!-- Footer -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Got questions? Reach out to us or follow us on social media:</p>
+            <ul class="social-links">
+                <li><a href="mailto:info@whitosauce.com">📧 Email Us</a></li>
+                <li><a href="https://facebook.com/whitosauce" target="_blank">🌐 Facebook</a></li>
+                <li><a href="https://instagram.com/whitosauce" target="_blank">📸 Instagram</a></li>
+                <li><a href="https://twitter.com/whitosauce" target="_blank">🐦 Twitter</a></li>
+            </ul>
+        </section>
+    </main>
     <footer>
         <p>&copy; 2024 Whitosauce. All rights reserved.</p>
+        <p>Made with ❤️ by the Whitosauce Team.</p>
     </footer>
     <script src="script.js"></script>
 </body>
